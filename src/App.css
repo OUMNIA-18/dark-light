@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.panel-light,.panel-dark{
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.panel-light{
+  background-color: #f0f0f0;
+  color:black;
+}
+.panel-dark{
+  background-color:black;
+  color:white;
+}
+
+.button-light,.button-dark{
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  outline:0;
+  border-radius: 12px;
+  margin-right:1rem;
+}
+
+.button-light{
+  background-color: #f0f0f0;
+  color:black;
+}
+.button-dark{
+  background-color:black;
+  color:white;
+}
